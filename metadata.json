@@ -1,0 +1,6 @@
+{
+  "name": "GIA SƯ KHTN LỚP 6",
+  "description": "Ứng dụng ôn tập và kiểm tra Khoa học tự nhiên 6 - Kết nối tri thức với cuộc sống. Tác giả: Giáo Hà AI",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

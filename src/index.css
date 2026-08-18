@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@media print {
+  /* Hide unwanted navigation and action buttons when printing */
+  nav, header, footer, button, [class*="print:hidden"], #btn-print-cert-action, #btn-new-quiz-top {
+    display: none !important;
+  }
+
+  /* Optimize page for landscape certificate printing */
+  @page {
+    size: landscape;
+    margin: 8mm;
+  }
+
+  body {
+    background: white !important;
+    color: black !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  .certificate-printable {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-shadow: none !important;
+    border-width: 3px !important;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
+  }
+}
